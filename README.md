@@ -1,0 +1,3 @@
+# Silent Network Request Failure in React Native
+
+This repository demonstrates a common issue in React Native applications: silent network request failures.  The `DataList` component fetches data from an API.  While the `try...catch` block handles errors, unhandled promise rejections might still occur if the fetch call itself is problematic, causing the app to behave unexpectedly without explicit error messages.  The solution provides a more robust way to handle this.
